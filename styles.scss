@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    // align-items: center;
+    padding-top: 30px;
+}
+.clock{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+
+    &--point{
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        background-color: black ;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% ,-50%);
+        z-index: 2;
+    }
+    &--digits{
+        display: inline-block;
+        text-align: center;
+      
+    }
+
+    &__allhands{
+        &--hand{
+            position: absolute;
+            background-color: black;
+            border-radius: 10px;
+            transform-origin: bottom;
+        }
+
+        &--hr{
+            background-color: green;
+            width: 6px;
+            height: 70px;
+            top: 33%;
+            left: 49.5%;
+        // left: 50%;
+        // transform: translate(-50% ,-50%);
+// display: none;
+        }
+        &--min{
+            width: 5px;
+            height: 120px;
+        //     top: 37%;
+        // left: 50%;
+        // transform: translate(-50% ,-50%);
+        top: 20%;
+        left: 49.5%;
+        // display: none;
+        }
+        &--sec{
+            width: 3px;
+            background-color: red;
+            height: 150px;
+        //     top: 33%;
+        // left: 50%;
+        // transform: translate(-50% ,-50%);
+        top: 13%;
+        left: 49.5%;
+        // display: none;
+        }
+    }
+
+
+    &--1{
+        position: absolute;
+        inset: 20px;
+        transform: rotate(calc( 1* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 1* (-360deg /12)));
+        }
+    }
+    &--2{
+        position: absolute;
+        inset: 20px;
+        transform: rotate(calc( 2* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 2* (-360deg /12)));
+        }
+
+    }
+    &--3{
+        position: absolute;
+        inset: 20px;
+        text-align: center;
+        transform: rotate(calc( 3* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 3* (-360deg /12)));
+        }
+    }
+    &--4{
+        position: absolute;
+        inset: 20px;
+        transform: rotate(calc( 4* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 4* (-360deg /12)));
+        }
+    }
+    &--5{
+        position: absolute;
+        inset: 20px;
+        transform: rotate(calc( 5* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 5* (-360deg /12)));
+        }
+    }
+    &--6{
+        position: absolute;
+        inset: 20px;
+        transform: rotate(calc( 6* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 6* (-360deg /12)));
+        }
+    }
+    &--7{
+        position: absolute;
+        inset: 20px;
+        transform: rotate(calc( 7* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 7* (-360deg /12)));
+        }
+    }
+    &--8{
+        position: absolute;
+        inset: 20px;
+        transform: rotate(calc( 8* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 8* (-360deg /12)));
+        }
+    }
+    &--9{
+        position: absolute;
+        inset: 20px;
+        transform: rotate(calc( 9* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 9* (-360deg /12)));
+        }
+    }
+    &--10{
+        position: absolute;
+        inset: 20px;
+        transform: rotate(calc( 10* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 10* (-360deg /12)));
+        }
+    }
+    &--11{
+        position: absolute;
+        inset: 20px;
+        transform: rotate(calc( 11* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 11* (-360deg /12)));
+        }
+    }
+    &--12{
+        position: absolute;
+        inset: 20px;
+        transform: rotate(calc( 12* (360deg /12)));
+        span{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 500;
+            color: black;
+            transform: rotate(calc( 12* (-360deg /12)));
+        }
+    }
+}
+
+

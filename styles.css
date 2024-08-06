@@ -1,1 +1,210 @@
-/*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.clock {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+.clock--point {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.clock--digits {
+  display: inline-block;
+  text-align: center;
+}
+.clock__allhands--hand {
+  position: absolute;
+  background-color: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+.clock__allhands--hr {
+  background-color: green;
+  width: 6px;
+  height: 70px;
+  top: 33%;
+  left: 49.5%;
+}
+.clock__allhands--min {
+  width: 5px;
+  height: 120px;
+  top: 20%;
+  left: 49.5%;
+}
+.clock__allhands--sec {
+  width: 3px;
+  background-color: red;
+  height: 150px;
+  top: 13%;
+  left: 49.5%;
+}
+.clock--1 {
+  position: absolute;
+  inset: 20px;
+  transform: rotate(30deg);
+}
+.clock--1 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-30deg);
+}
+.clock--2 {
+  position: absolute;
+  inset: 20px;
+  transform: rotate(60deg);
+}
+.clock--2 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-60deg);
+}
+.clock--3 {
+  position: absolute;
+  inset: 20px;
+  text-align: center;
+  transform: rotate(90deg);
+}
+.clock--3 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-90deg);
+}
+.clock--4 {
+  position: absolute;
+  inset: 20px;
+  transform: rotate(120deg);
+}
+.clock--4 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-120deg);
+}
+.clock--5 {
+  position: absolute;
+  inset: 20px;
+  transform: rotate(150deg);
+}
+.clock--5 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-150deg);
+}
+.clock--6 {
+  position: absolute;
+  inset: 20px;
+  transform: rotate(180deg);
+}
+.clock--6 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-180deg);
+}
+.clock--7 {
+  position: absolute;
+  inset: 20px;
+  transform: rotate(210deg);
+}
+.clock--7 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-210deg);
+}
+.clock--8 {
+  position: absolute;
+  inset: 20px;
+  transform: rotate(240deg);
+}
+.clock--8 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-240deg);
+}
+.clock--9 {
+  position: absolute;
+  inset: 20px;
+  transform: rotate(270deg);
+}
+.clock--9 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-270deg);
+}
+.clock--10 {
+  position: absolute;
+  inset: 20px;
+  transform: rotate(300deg);
+}
+.clock--10 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-300deg);
+}
+.clock--11 {
+  position: absolute;
+  inset: 20px;
+  transform: rotate(330deg);
+}
+.clock--11 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-330deg);
+}
+.clock--12 {
+  position: absolute;
+  inset: 20px;
+  transform: rotate(360deg);
+}
+.clock--12 span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transform: rotate(-360deg);
+}/*# sourceMappingURL=styles.css.map */
