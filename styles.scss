@@ -7,8 +7,10 @@
 body{
     display: flex;
     min-height: 100vh;
-    justify-content: center;
-    // align-items: center;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
     padding-top: 30px;
 }
 .clock{
@@ -86,7 +88,10 @@ body{
         inset: 20px;
         transform: rotate(calc( 1* (360deg /12)));
         span{
-            display: inline-block;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
@@ -98,7 +103,9 @@ body{
         inset: 20px;
         transform: rotate(calc( 2* (360deg /12)));
         span{
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
@@ -112,7 +119,9 @@ body{
         text-align: center;
         transform: rotate(calc( 3* (360deg /12)));
         span{
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
@@ -124,7 +133,9 @@ body{
         inset: 20px;
         transform: rotate(calc( 4* (360deg /12)));
         span{
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
@@ -136,7 +147,9 @@ body{
         inset: 20px;
         transform: rotate(calc( 5* (360deg /12)));
         span{
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
@@ -148,7 +161,9 @@ body{
         inset: 20px;
         transform: rotate(calc( 6* (360deg /12)));
         span{
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
@@ -160,7 +175,9 @@ body{
         inset: 20px;
         transform: rotate(calc( 7* (360deg /12)));
         span{
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
@@ -172,7 +189,9 @@ body{
         inset: 20px;
         transform: rotate(calc( 8* (360deg /12)));
         span{
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
@@ -184,7 +203,9 @@ body{
         inset: 20px;
         transform: rotate(calc( 9* (360deg /12)));
         span{
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
@@ -196,7 +217,9 @@ body{
         inset: 20px;
         transform: rotate(calc( 10* (360deg /12)));
         span{
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
@@ -208,7 +231,9 @@ body{
         inset: 20px;
         transform: rotate(calc( 11* (360deg /12)));
         span{
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
@@ -220,13 +245,25 @@ body{
         inset: 20px;
         transform: rotate(calc( 12* (360deg /12)));
         span{
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 25px;
             font-weight: 500;
             color: black;
             transform: rotate(calc( 12* (-360deg /12)));
         }
     }
+
+    &__analog{
+        display: flex;
+        font-size: 2.5rem;
+        // background-color: rgb(247, 242, 242);
+        padding: 5px;
+        // border-radius: 10px;
+    }
+    
+
 }
 
 

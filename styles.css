@@ -7,7 +7,9 @@
 body {
   display: flex;
   min-height: 100vh;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
   padding-top: 30px;
 }
 
@@ -69,7 +71,9 @@ body {
   transform: rotate(30deg);
 }
 .clock--1 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
@@ -81,7 +85,9 @@ body {
   transform: rotate(60deg);
 }
 .clock--2 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
@@ -94,7 +100,9 @@ body {
   transform: rotate(90deg);
 }
 .clock--3 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
@@ -106,7 +114,9 @@ body {
   transform: rotate(120deg);
 }
 .clock--4 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
@@ -118,7 +128,9 @@ body {
   transform: rotate(150deg);
 }
 .clock--5 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
@@ -130,7 +142,9 @@ body {
   transform: rotate(180deg);
 }
 .clock--6 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
@@ -142,7 +156,9 @@ body {
   transform: rotate(210deg);
 }
 .clock--7 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
@@ -154,7 +170,9 @@ body {
   transform: rotate(240deg);
 }
 .clock--8 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
@@ -166,7 +184,9 @@ body {
   transform: rotate(270deg);
 }
 .clock--9 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
@@ -178,7 +198,9 @@ body {
   transform: rotate(300deg);
 }
 .clock--10 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
@@ -190,7 +212,9 @@ body {
   transform: rotate(330deg);
 }
 .clock--11 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
@@ -202,9 +226,16 @@ body {
   transform: rotate(360deg);
 }
 .clock--12 span {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   font-weight: 500;
   color: black;
   transform: rotate(-360deg);
+}
+.clock__analog {
+  display: flex;
+  font-size: 2.5rem;
+  padding: 5px;
 }/*# sourceMappingURL=styles.css.map */

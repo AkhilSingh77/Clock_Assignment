@@ -16,4 +16,12 @@ setInterval(()=>{
   minute.style.transform = `rotate(${mrotation}deg)`;
   second.style.transform = `rotate(${srotation}deg)`;
 
+  const analogHourelement =  document.getElementsByClassName("class__analog--hr")[0];
+  const analogMinelement =  document.getElementsByClassName("class__analog--min")[0];
+  const analogSecelement =  document.getElementsByClassName("class__analog--sec")[0];
+
+  analogHourelement.textContent = Math.abs(htime-12)
+  analogMinelement.textContent = mtime;
+  analogSecelement.textContent =stime;
+
 },1000)
